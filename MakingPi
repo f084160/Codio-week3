@@ -1,0 +1,13 @@
+from math import cos,pi,sqrt
+# This prints out my GCSE maths revision...
+print("")
+print("cosine of pi is " + str(cos(pi)) )
+print("")
+print("cosine of pi/2 is " + str( round(cos(pi/2),2) ) )
+print("")
+print("cosine of pi/4 is " + str( round(cos(pi/4),2) ) )
+print("sqrt(2)/2 is " + str(round(sqrt(2)/2,2)) )
+print("")
+print("cosine of pi/6 is " + str( round(cos(pi/6),2) ) )
+print("sqrt(3)/2 is " + str(round(sqrt(3)/2,2)) )
+print("")
