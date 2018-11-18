@@ -1,0 +1,13 @@
+def imperialToMetric(stone , pounds):
+    """This function will calculate imperial to metric conversion"""
+    PoundsToStone = pounds/14
+    Stones = PoundsToStone+stone
+    stoneToKg = Stones*6.35
+    return(stoneToKg)
+  
+def metricToImperial(Kg):
+  """This function will calculate metric to imperial conversion"""
+  kgToStones = (Kg/6.35)*14
+  stone = int(kgToStones)
+  stoneToPounds = (kgToStones)*14
+  return(kgToStones , stoneToPounds)
