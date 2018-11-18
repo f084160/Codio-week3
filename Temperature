@@ -1,0 +1,13 @@
+# Degrees in Centigrade (C) can be converted to Fahrenheit (F) using the formula
+# F = 1:8 x C + 32
+# Write two functions in this file: 
+# - centToFaren which takes Centigrade as input and returns Fahrenheit;
+# - farenToCent: which takes Farenheit as input and returns Centigrade.
+# You must use these function names for the tests to work in the Codio Guide.
+ 
+def centToFaren(c):
+  calculation = 1.8*c+32
+  return(calculation)
+
+def farenToCent(f):
+  return ((f-32)/1.8)
